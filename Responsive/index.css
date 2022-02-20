@@ -1,0 +1,26 @@
+/* RESPONSIIVIY 1200PX */
+
+@media screen and (max-width: 1200px) {
+    html{
+        background-color: #f2f2cd;   
+    }
+    
+    .row {
+        width: 100vw;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      
+      /* BLOCCO LEZIONI */
+      .container .row .left .central .right {
+        float: unset;
+        width: auto;
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        font-size: larger;
+      }
+      
+  }
+  
+  /* /RESPONSIIVIY 1200PX */
